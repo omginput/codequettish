@@ -12,5 +12,5 @@ dokku tags:deploy api latest
 sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
 dokku domains:clear api
 dokku domains:clear-global
-dokku domains:add-global vsinder.com
+dokku domains:add-global codequettish.com
 dokku letsencrypt api

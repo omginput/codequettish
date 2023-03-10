@@ -17,7 +17,7 @@ sudo usermod -aG docker ben
 # dokku
 wget https://raw.githubusercontent.com/dokku/dokku/v0.21.4/bootstrap.sh;
 sudo DOKKU_TAG=v0.21.4 bash bootstrap.sh
-echo vsinder.com > /home/dokku/VHOST
+echo codequettish.com > /home/dokku/VHOST
 
 echo 'ben ALL=(ALL:ALL) NOPASSWD:SETENV: /usr/bin/dokku' | sudo EDITOR='tee -a' visudo
 

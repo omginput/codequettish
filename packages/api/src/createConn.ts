@@ -5,7 +5,7 @@ import { __prod__ } from "./constants";
 export const createConn = () =>
   createConnection({
     type: "postgres",
-    database: __prod__ ? undefined : "vsinder",
+    database: __prod__ ? undefined : "codequettish",
     url: __prod__ ? process.env.DATABASE_URL : undefined,
     entities: [join(__dirname, "./entities/*")],
     migrations: [join(__dirname, "./migrations/*")],

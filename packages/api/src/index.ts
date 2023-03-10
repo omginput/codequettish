@@ -279,7 +279,7 @@ const main = async () => {
         res.redirect(
           `${
             __prod__
-              ? `vsinder://`
+              ? `codequettish://`
               : `exp:${
                   process.env.SERVER_URL.replace("http:", "").split(":")[0]
                 }:19000/--/`
@@ -289,7 +289,7 @@ const main = async () => {
         res.redirect(
           `${
             __prod__
-              ? `vsinder://`
+              ? `codequettish://`
               : `exp:${
                   process.env.SERVER_URL.replace("http:", "").split(":")[0]
                 }:19000/--/`
@@ -730,7 +730,7 @@ const main = async () => {
                   text: id,
                   emoji: true,
                 },
-                image_url: `https://img.vsinder.com/${id}`,
+                image_url: `https://img.codequettish.com/${id}`,
                 alt_text: "code",
               })) || []),
               ...(u?.photoUrl
